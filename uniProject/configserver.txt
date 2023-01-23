@@ -1,0 +1,29 @@
+#
+# Tutte le righe che iniziano con '#' verranno ignorate.
+#
+# Porta TCP del server
+TCPPORT=6666
+# Indirizzo di multicast
+MULTICAST=239.0.0.1
+# Porta di multicast
+MCASTPORT=44444
+# Host su cui si trova il registry
+REGHOST=localhost
+# Porta del registry RMI
+REGPORT=5000
+# Timeout della socket
+TIMEOUT=100000
+#porta della callback
+CALLBACK=5001
+#intervallo ricompensa 86400000 = 1 giorno 
+INTERVALLO=1800
+#reward curator
+CURATOR=40
+#reward publisher
+PUBLISHER=60
+#intervallo tra una richiesta a random.org e l'altra
+POLLING=1500
+#frequenza backUp database utenti
+BACKUPUSER=10000
+#frequenza BackUp database Post
+BACKUPPOST=10000
